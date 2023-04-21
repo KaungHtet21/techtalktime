@@ -44,6 +44,23 @@ u:hover {
     cursor: pointer;
 }
 
+.swiper_container {
+    width: 450px;
+    height: 250px;
+    margin-top: 15px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.article_container {
+    display: flex;
+    width: 450px;
+    height: 250px;
+    padding: 10px;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+}
+
 @media screen and (max-width: 480px) {
     .home_screen_container {
         flex-direction: column;
@@ -60,7 +77,15 @@ u:hover {
     }
 
     .right_container {
-        width: 100%;
+        width: 120%;
         margin-bottom: 15px;
+    }
+
+    .article_container{
+        width: 350px;
+    }
+
+    .swiper_container {
+        width: 350px;
     }
 }

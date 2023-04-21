@@ -46,11 +46,9 @@ const rightContainerAnimation = {
 function HomeScreen() {
   const navigate = useNavigate();
   return (
-    <div style={{display: "flex", flexDirection: "column"}}>
-      <Navbar/>
-      <div
-        className="home_screen_container"
-      >
+    <div style={{ display: "flex", flexDirection: "column" }}>
+      <Navbar />
+      <div className="home_screen_container">
         <motion.div
           className="left_container"
           initial="hidden"
@@ -72,14 +70,7 @@ function HomeScreen() {
             />
             <span className="title">Tech Talk Time</span>
           </div>
-          <div
-            style={{
-              width: "450px",
-              height: "250px",
-              marginTop: "15px",
-              boxShadow: "10px 10px 10px rgba(0, 0, 0, 0.5)",
-            }}
-          >
+          <div className="swiper_container">
             <Swiper
               modules={[Pagination]}
               navigation
@@ -90,28 +81,23 @@ function HomeScreen() {
                 return (
                   <SwiperSlide key={article.id}>
                     <div
-                    onClick={() => navigate(`articles/${article.path_suffix}`, {
-                      state: {
-                        title: article.title,
-                        bg_image: article.bg_image,
-                        genre: article.genre,
-                        duration: article.duration,
-                        date: article.date,
-                        body: article.body,
-                        image_src: article.image_src
+                      className="article_container"
+                      onClick={() =>
+                        navigate(`articles/${article.path_suffix}`, {
+                          state: {
+                            title: article.title,
+                            bg_image: article.bg_image,
+                            genre: article.genre,
+                            duration: article.duration,
+                            date: article.date,
+                            body: article.body,
+                            image_src: article.image_src,
+                          },
+                        })
                       }
-                    })}
                       style={{
                         backgroundImage: `url(${article.bg_image})`,
                         backgroundSize: "cover",
-                        display: "flex",
-                        // borderRadius: "15px",
-                        width: "450px",
-                        height: "250px",
-                        padding: "10px",
-                        gap: "10px",
-                        flexDirection: "column",
-                        justifyContent: "center",
                       }}
                     >
                       <span style={{ fontSize: "18px" }}>
@@ -126,7 +112,12 @@ function HomeScreen() {
               })}
             </Swiper>
           </div>
-          <u onClick={() => navigate('showarticles')} style={{fontSize: "18px", marginTop: "30px", fontStyle: "italic"}}>See more</u>
+          <u
+            onClick={() => navigate("showarticles")}
+            style={{ fontSize: "18px", marginTop: "30px", fontStyle: "italic" }}
+          >
+            See more
+          </u>
         </motion.div>
         <motion.div
           className="right_container"
