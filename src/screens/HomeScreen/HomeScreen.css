@@ -40,6 +40,10 @@
     cursor: pointer;
 }
 
+u:hover {
+    cursor: pointer;
+}
+
 @media screen and (max-width: 480px) {
     .home_screen_container {
         flex-direction: column;

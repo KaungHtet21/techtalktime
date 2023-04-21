@@ -126,8 +126,7 @@ function HomeScreen() {
               })}
             </Swiper>
           </div>
-          {/* <a style={{fontSize: "18px", color: "black", marginTop: "30px", fontStyle: "italic"}}>See more</a> */}
-          <a href="" onClick={() => navigate('showarticles')} style={{fontSize: "18px", marginTop: "30px", fontStyle: "italic"}}>See more</a>
+          <u onClick={() => navigate('showarticles')} style={{fontSize: "18px", marginTop: "30px", fontStyle: "italic"}}>See more</u>
         </motion.div>
         <motion.div
           className="right_container"
