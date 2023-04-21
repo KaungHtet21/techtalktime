@@ -1,0 +1,39 @@
+.articles_grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 70%;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.articles_grid div {
+    transition: 0.5s;
+    animation: ease-in;
+}
+
+.articles_grid div:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+@font-face {
+    font-family: Imported;
+    src: url(../../font/DancingScript-Medium.ttf);
+}
+
+.article_title {
+    font-family: Imported;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 480px) {
+    .articles_grid {
+        grid-template-columns: repeat(1,auto);
+    }
+}
