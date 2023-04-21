@@ -68,8 +68,6 @@ function ShowArticles() {
               <li
                 key={index}
                 style={{
-                  height: "100%",
-                  width: "100%",
                   display: "flex",
                   // borderRadius: "15px",
                   width: "450px",
