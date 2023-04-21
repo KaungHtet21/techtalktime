@@ -67,16 +67,7 @@ function ShowArticles() {
             >
               <li
                 key={index}
-                style={{
-                  display: "flex",
-                  // borderRadius: "15px",
-                  width: "450px",
-                  height: "250px",
-                  padding: "10px",
-                  gap: "10px",
-                  flexDirection: "column",
-                  justifyContent: "center",
-                }}
+                className="article_container"
               >
                 <span style={{ fontSize: "18px" }}>🕒 {article.duration}</span>
                 <span style={{ fontSize: "25px", maxWidth: "100px" }}>
