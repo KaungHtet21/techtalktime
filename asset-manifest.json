@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/techtalktime/static/css/main.5aab36e3.css",
+    "main.js": "/techtalktime/static/js/main.92cf380e.js",
+    "static/js/787.236e37d6.chunk.js": "/techtalktime/static/js/787.236e37d6.chunk.js",
+    "static/media/eventdriven.jfif": "/techtalktime/static/media/eventdriven.dd12f5d8f48a867cbd7f.jfif",
+    "static/media/solid.jfif": "/techtalktime/static/media/solid.d8a7dc31f6104bdba8cb.jfif",
+    "static/media/DancingScript-Medium.ttf": "/techtalktime/static/media/DancingScript-Medium.18363d2ef0655855f4a6.ttf",
+    "static/media/cover.png": "/techtalktime/static/media/cover.6b77c1defba7c00b06bb.png",
+    "static/media/eda_explain.png": "/techtalktime/static/media/eda_explain.f6ef6c409286831ae64b.png",
+    "static/media/ocp_right.png": "/techtalktime/static/media/ocp_right.af1ec127e023bc03583c.png",
+    "static/media/mono_vs_micro.png": "/techtalktime/static/media/mono_vs_micro.713089696d137e37b2a3.png",
+    "static/media/microservice.jfif": "/techtalktime/static/media/microservice.8d5af10852a2fbf2081e.jfif",
+    "static/media/dip_right.png": "/techtalktime/static/media/dip_right.38f044eaf00740579017.png",
+    "static/media/ocp_wrong.png": "/techtalktime/static/media/ocp_wrong.45df5813ab5ff3361b58.png",
+    "static/media/logo.png": "/techtalktime/static/media/logo.d623d6824320b59ff0d4.png",
+    "static/media/lsp_wrong.png": "/techtalktime/static/media/lsp_wrong.f62c3c06c86d8904b1c9.png",
+    "static/media/dip_wrong.png": "/techtalktime/static/media/dip_wrong.da0d3b4fdcec2af99c39.png",
+    "static/media/logo.svg": "/techtalktime/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/techtalktime/index.html",
+    "main.5aab36e3.css.map": "/techtalktime/static/css/main.5aab36e3.css.map",
+    "main.92cf380e.js.map": "/techtalktime/static/js/main.92cf380e.js.map",
+    "787.236e37d6.chunk.js.map": "/techtalktime/static/js/787.236e37d6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5aab36e3.css",
+    "static/js/main.92cf380e.js"
+  ]
+}
